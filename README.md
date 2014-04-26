@@ -6,14 +6,14 @@ This file describes the steps in the creation of the file tidydataset.csv throug
 
 ####1. Prepare train data
 
-*Open features list and save labels to an object
-*Open X train data
-*Apply features labels to train data
-*Sub-select only variables with mean() or std() in variable name
-*Open Y train data
-*Create a variable activityname with descriptive labels
-*Open subject file and rename variable to subject
-*Merge subject, Y train, and X train
+Open features list and save labels to an object
+Open X train data
+Apply features labels to train data
+Sub-select only variables with mean() or std() in variable name
+Open Y train data
+Create a variable activityname with descriptive labels
+Open subject file and rename variable to subject
+Merge subject, Y train, and X train
 
 ####2. Prepare test data
 
