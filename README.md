@@ -2,9 +2,10 @@
 
 This file describes the steps in the creation of the file tidydataset.csv through the R file run_analysis.R
 
-The general steps are as follows:
+####The general steps are as follows:
 
-1. Prepare train data
+####1. Prepare train data
+
 *Open features list and save labels to an object
 *Open X train data
 *Apply features labels to train data
@@ -13,7 +14,9 @@ The general steps are as follows:
 *Create a variable activityname with descriptive labels
 *Open subject file and rename variable to subject
 *Merge subject, Y train, and X train
-2. Prepare test data
+
+####2. Prepare test data
+
 *Open features list and save labels to an object
 *Open X test data
 *Apply features labels to test data
@@ -22,6 +25,7 @@ The general steps are as follows:
 *Create a variable activityname with descriptive labels
 *Open subject file and rename variable to subject
 *Merge subject, Y test, and X test
-3. Combine test and train datasets using rbind
-4. Collapse to means by subject/activity combo
-5. Write data set to a csv file using tidydataset.csv
+
+####3. Combine test and train datasets using rbind
+####4. Collapse to means by subject/activity combo
+####5. Write data set to a csv file using tidydataset.csv
